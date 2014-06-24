@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B12D3B618EEB6FC004A0AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B12D3B518EEB6FC004A0AF4 /* Foundation.framework */; };
+		4B12D3B818EEB6FC004A0AF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B12D3B718EEB6FC004A0AF4 /* CoreGraphics.framework */; };
+		4B12D3BA18EEB6FC004A0AF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B12D3B918EEB6FC004A0AF4 /* UIKit.framework */; };
+		4B12D3C018EEB6FC004A0AF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B12D3BE18EEB6FC004A0AF4 /* InfoPlist.strings */; };
+		4B12D3C218EEB6FC004A0AF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12D3C118EEB6FC004A0AF4 /* main.m */; };
+		4B12D3C618EEB6FC004A0AF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12D3C518EEB6FC004A0AF4 /* AppDelegate.m */; };
+		4B12D3C818EEB6FC004A0AF4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B12D3C718EEB6FC004A0AF4 /* Images.xcassets */; };
+		4B12D3CF18EEB6FC004A0AF4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B12D3CE18EEB6FC004A0AF4 /* XCTest.framework */; };
+		4B12D3D018EEB6FC004A0AF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B12D3B518EEB6FC004A0AF4 /* Foundation.framework */; };
+		4B12D3D118EEB6FC004A0AF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B12D3B918EEB6FC004A0AF4 /* UIKit.framework */; };
+		4B12D3D918EEB6FC004A0AF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B12D3D718EEB6FC004A0AF4 /* InfoPlist.strings */; };
+		4B12D3DB18EEB6FC004A0AF4 /* RoundCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12D3DA18EEB6FC004A0AF4 /* RoundCameraTests.m */; };
+		4B12D3E718EEB754004A0AF4 /* RootViewCntrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12D3E518EEB754004A0AF4 /* RootViewCntrlViewController.m */; };
+		4B12D3E818EEB754004A0AF4 /* RootViewCntrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12D3E618EEB754004A0AF4 /* RootViewCntrlViewController.xib */; };
+		4B12D3EC18EEC0DF004A0AF4 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B12D3EA18EEC0DF004A0AF4 /* NewViewController.m */; };
+		4B12D3ED18EEC0DF004A0AF4 /* NewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B12D3EB18EEC0DF004A0AF4 /* NewViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B12D3D218EEB6FC004A0AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B12D3AA18EEB6FC004A0AF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B12D3B118EEB6FC004A0AF4;
+			remoteInfo = RoundCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B12D3B218EEB6FC004A0AF4 /* RoundCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B12D3B518EEB6FC004A0AF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B12D3B718EEB6FC004A0AF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4B12D3B918EEB6FC004A0AF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4B12D3BD18EEB6FC004A0AF4 /* RoundCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundCamera-Info.plist"; sourceTree = "<group>"; };
+		4B12D3BF18EEB6FC004A0AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B12D3C118EEB6FC004A0AF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B12D3C318EEB6FC004A0AF4 /* RoundCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoundCamera-Prefix.pch"; sourceTree = "<group>"; };
+		4B12D3C418EEB6FC004A0AF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B12D3C518EEB6FC004A0AF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B12D3C718EEB6FC004A0AF4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B12D3CD18EEB6FC004A0AF4 /* RoundCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoundCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B12D3CE18EEB6FC004A0AF4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4B12D3D618EEB6FC004A0AF4 /* RoundCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoundCameraTests-Info.plist"; sourceTree = "<group>"; };
+		4B12D3D818EEB6FC004A0AF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B12D3DA18EEB6FC004A0AF4 /* RoundCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoundCameraTests.m; sourceTree = "<group>"; };
+		4B12D3E418EEB754004A0AF4 /* RootViewCntrlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewCntrlViewController.h; sourceTree = "<group>"; };
+		4B12D3E518EEB754004A0AF4 /* RootViewCntrlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewCntrlViewController.m; sourceTree = "<group>"; };
+		4B12D3E618EEB754004A0AF4 /* RootViewCntrlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewCntrlViewController.xib; sourceTree = "<group>"; };
+		4B12D3E918EEC0DF004A0AF4 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		4B12D3EA18EEC0DF004A0AF4 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		4B12D3EB18EEC0DF004A0AF4 /* NewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B12D3AF18EEB6FC004A0AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12D3B818EEB6FC004A0AF4 /* CoreGraphics.framework in Frameworks */,
+				4B12D3BA18EEB6FC004A0AF4 /* UIKit.framework in Frameworks */,
+				4B12D3B618EEB6FC004A0AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B12D3CA18EEB6FC004A0AF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12D3CF18EEB6FC004A0AF4 /* XCTest.framework in Frameworks */,
+				4B12D3D118EEB6FC004A0AF4 /* UIKit.framework in Frameworks */,
+				4B12D3D018EEB6FC004A0AF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B12D3A918EEB6FC004A0AF4 = {
+			isa = PBXGroup;
+			children = (
+				4B12D3BB18EEB6FC004A0AF4 /* RoundCamera */,
+				4B12D3D418EEB6FC004A0AF4 /* RoundCameraTests */,
+				4B12D3B418EEB6FC004A0AF4 /* Frameworks */,
+				4B12D3B318EEB6FC004A0AF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B12D3B318EEB6FC004A0AF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B12D3B218EEB6FC004A0AF4 /* RoundCamera.app */,
+				4B12D3CD18EEB6FC004A0AF4 /* RoundCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B12D3B418EEB6FC004A0AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B12D3B518EEB6FC004A0AF4 /* Foundation.framework */,
+				4B12D3B718EEB6FC004A0AF4 /* CoreGraphics.framework */,
+				4B12D3B918EEB6FC004A0AF4 /* UIKit.framework */,
+				4B12D3CE18EEB6FC004A0AF4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B12D3BB18EEB6FC004A0AF4 /* RoundCamera */ = {
+			isa = PBXGroup;
+			children = (
+				4B12D3C418EEB6FC004A0AF4 /* AppDelegate.h */,
+				4B12D3C518EEB6FC004A0AF4 /* AppDelegate.m */,
+				4B12D3C718EEB6FC004A0AF4 /* Images.xcassets */,
+				4B12D3BC18EEB6FC004A0AF4 /* Supporting Files */,
+				4B12D3E418EEB754004A0AF4 /* RootViewCntrlViewController.h */,
+				4B12D3E518EEB754004A0AF4 /* RootViewCntrlViewController.m */,
+				4B12D3E618EEB754004A0AF4 /* RootViewCntrlViewController.xib */,
+				4B12D3E918EEC0DF004A0AF4 /* NewViewController.h */,
+				4B12D3EA18EEC0DF004A0AF4 /* NewViewController.m */,
+				4B12D3EB18EEC0DF004A0AF4 /* NewViewController.xib */,
+			);
+			path = RoundCamera;
+			sourceTree = "<group>";
+		};
+		4B12D3BC18EEB6FC004A0AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B12D3BD18EEB6FC004A0AF4 /* RoundCamera-Info.plist */,
+				4B12D3BE18EEB6FC004A0AF4 /* InfoPlist.strings */,
+				4B12D3C118EEB6FC004A0AF4 /* main.m */,
+				4B12D3C318EEB6FC004A0AF4 /* RoundCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B12D3D418EEB6FC004A0AF4 /* RoundCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B12D3DA18EEB6FC004A0AF4 /* RoundCameraTests.m */,
+				4B12D3D518EEB6FC004A0AF4 /* Supporting Files */,
+			);
+			path = RoundCameraTests;
+			sourceTree = "<group>";
+		};
+		4B12D3D518EEB6FC004A0AF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B12D3D618EEB6FC004A0AF4 /* RoundCameraTests-Info.plist */,
+				4B12D3D718EEB6FC004A0AF4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B12D3B118EEB6FC004A0AF4 /* RoundCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B12D3DE18EEB6FC004A0AF4 /* Build configuration list for PBXNativeTarget "RoundCamera" */;
+			buildPhases = (
+				4B12D3AE18EEB6FC004A0AF4 /* Sources */,
+				4B12D3AF18EEB6FC004A0AF4 /* Frameworks */,
+				4B12D3B018EEB6FC004A0AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundCamera;
+			productName = RoundCamera;
+			productReference = 4B12D3B218EEB6FC004A0AF4 /* RoundCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B12D3CC18EEB6FC004A0AF4 /* RoundCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B12D3E118EEB6FC004A0AF4 /* Build configuration list for PBXNativeTarget "RoundCameraTests" */;
+			buildPhases = (
+				4B12D3C918EEB6FC004A0AF4 /* Sources */,
+				4B12D3CA18EEB6FC004A0AF4 /* Frameworks */,
+				4B12D3CB18EEB6FC004A0AF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B12D3D318EEB6FC004A0AF4 /* PBXTargetDependency */,
+			);
+			name = RoundCameraTests;
+			productName = RoundCameraTests;
+			productReference = 4B12D3CD18EEB6FC004A0AF4 /* RoundCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B12D3AA18EEB6FC004A0AF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = digicorp;
+				TargetAttributes = {
+					4B12D3CC18EEB6FC004A0AF4 = {
+						TestTargetID = 4B12D3B118EEB6FC004A0AF4;
+					};
+				};
+			};
+			buildConfigurationList = 4B12D3AD18EEB6FC004A0AF4 /* Build configuration list for PBXProject "RoundCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B12D3A918EEB6FC004A0AF4;
+			productRefGroup = 4B12D3B318EEB6FC004A0AF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B12D3B118EEB6FC004A0AF4 /* RoundCamera */,
+				4B12D3CC18EEB6FC004A0AF4 /* RoundCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B12D3B018EEB6FC004A0AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12D3C018EEB6FC004A0AF4 /* InfoPlist.strings in Resources */,
+				4B12D3E818EEB754004A0AF4 /* RootViewCntrlViewController.xib in Resources */,
+				4B12D3C818EEB6FC004A0AF4 /* Images.xcassets in Resources */,
+				4B12D3ED18EEC0DF004A0AF4 /* NewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B12D3CB18EEB6FC004A0AF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12D3D918EEB6FC004A0AF4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B12D3AE18EEB6FC004A0AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12D3C618EEB6FC004A0AF4 /* AppDelegate.m in Sources */,
+				4B12D3E718EEB754004A0AF4 /* RootViewCntrlViewController.m in Sources */,
+				4B12D3C218EEB6FC004A0AF4 /* main.m in Sources */,
+				4B12D3EC18EEC0DF004A0AF4 /* NewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B12D3C918EEB6FC004A0AF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B12D3DB18EEB6FC004A0AF4 /* RoundCameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B12D3D318EEB6FC004A0AF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B12D3B118EEB6FC004A0AF4 /* RoundCamera */;
+			targetProxy = 4B12D3D218EEB6FC004A0AF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B12D3BE18EEB6FC004A0AF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B12D3BF18EEB6FC004A0AF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B12D3D718EEB6FC004A0AF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B12D3D818EEB6FC004A0AF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B12D3DC18EEB6FC004A0AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B12D3DD18EEB6FC004A0AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B12D3DF18EEB6FC004A0AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kuntal Shah (887VD54RPD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundCamera/RoundCamera-Prefix.pch";
+				INFOPLIST_FILE = "RoundCamera/RoundCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4B12D3E018EEB6FC004A0AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Digicorp Information Systems Pvt. Ltd. (56T8BECPLN)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundCamera/RoundCamera-Prefix.pch";
+				INFOPLIST_FILE = "RoundCamera/RoundCamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4B12D3E218EEB6FC004A0AF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RoundCamera.app/RoundCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundCamera/RoundCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RoundCameraTests/RoundCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4B12D3E318EEB6FC004A0AF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RoundCamera.app/RoundCamera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoundCamera/RoundCamera-Prefix.pch";
+				INFOPLIST_FILE = "RoundCameraTests/RoundCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B12D3AD18EEB6FC004A0AF4 /* Build configuration list for PBXProject "RoundCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B12D3DC18EEB6FC004A0AF4 /* Debug */,
+				4B12D3DD18EEB6FC004A0AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B12D3DE18EEB6FC004A0AF4 /* Build configuration list for PBXNativeTarget "RoundCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B12D3DF18EEB6FC004A0AF4 /* Debug */,
+				4B12D3E018EEB6FC004A0AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B12D3E118EEB6FC004A0AF4 /* Build configuration list for PBXNativeTarget "RoundCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B12D3E218EEB6FC004A0AF4 /* Debug */,
+				4B12D3E318EEB6FC004A0AF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B12D3AA18EEB6FC004A0AF4 /* Project object */;
+}
